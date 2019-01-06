@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on A place to gather my thoughts.</title>
+    <link>https://gertm.github.io/links/</link>
+    <description>Recent content in Links on A place to gather my thoughts.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 — Gert Meulyzer — All rights reserved.</copyright>
+    <lastBuildDate>Sun, 06 Jan 2019 09:34:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://gertm.github.io/links/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programming</title>
+      <link>https://gertm.github.io/links/programming/</link>
+      <pubDate>Sun, 06 Jan 2019 09:34:00 +0100</pubDate>
+      
+      <guid>https://gertm.github.io/links/programming/</guid>
+      <description>Interesting stuff about programming I keep here.
+Currently doing most my stuff in (SWI-Prolog)[https://swi-prolog.org]</description>
+    </item>
+    
+  </channel>
+</rss>

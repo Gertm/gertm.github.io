@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gertm.github.io/links/programming/</loc>
+    <lastmod>2019-01-06T09:34:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/about/</loc>
+    <lastmod>2019-01-06T09:07:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/posts/another-blog-reboot/</loc>
+    <lastmod>2019-01-06T09:07:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/posts/why-i-stopped-using-linux/</loc>
+    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/</loc>
+    <lastmod>2019-01-06T09:34:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/links/</loc>
+    <lastmod>2019-01-06T09:34:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/tags/linux/</loc>
+    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/posts/</loc>
+    <lastmod>2019-01-06T09:07:07+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/tags/</loc>
+    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/tags/windows/</loc>
+    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

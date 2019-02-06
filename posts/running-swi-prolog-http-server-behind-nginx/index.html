@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Running Swi Prolog Http Server Behind Nginx</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<meta name="generator" content="Hugo 0.54.0" />
+	<meta property="og:title" content="Running Swi Prolog Http Server Behind Nginx" />
+<meta property="og:description" content="This post will show you how to run the SWI-Prolog http server behind an nginx reverse proxy.
+     This assumes you have experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/" />
+<meta property="article:published_time" content="2019-02-02T20:07:39&#43;01:00"/>
+<meta property="article:modified_time" content="2019-02-02T20:07:39&#43;01:00"/>
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Running Swi Prolog Http Server Behind Nginx"/>
+<meta name="twitter:description" content="This post will show you how to run the SWI-Prolog http server behind an nginx reverse proxy.
+     This assumes you have experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it."/>
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="Gertm&#39;s blog" rel="home">
+				<div class="logo__title">Gertm&#39;s blog</div>
+				<div class="logo__tagline">A place for my thoughts.</div>
+			</a>
+		</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Running Swi Prolog Http Server Behind Nginx</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2019-02-02T20:07:39">2019-02-02</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/programming" rel="category">programming</a>, <a class="meta__link" href="/categories/prolog" rel="category">prolog</a></span>
+</div>
+</div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<div class="paragraph">
+<p>This post will show you how to run the SWI-Prolog http server behind an nginx reverse proxy.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This assumes you have experience with nginx and already have a server up and running.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it. SSL can be offloaded to nginx as well.</p>
+</div>
+<div class="listingblock">
+<div class="title">Example taken directly from the SWI-Prolog documentation.</div>
+<div class="content">
+<pre class="highlight"><code class="language-prolog" data-lang="prolog">:- use_module(library(http/http_server)).
+
+:- initialization
+    http_server([port(8080)]).
+
+:- http_handler(root(.),
+                http_redirect(moved, location_by_id(home_page)),
+                []).
+:- http_handler(root(home), home_page, []).
+
+home_page(_Request) :-
+    reply_html_page(
+        title('Demo server'),
+        [ h1('Hello world!')
+        ]).</code></pre>
+</div>
+</div>
+
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/prolog/" rel="tag">prolog</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/nginx/" rel="tag">nginx</a></li>
+	</ul>
+</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Gert Meulyzer avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Gert Meulyzer</span>
+	</div>
+	<div class="authorbox__description">
+		Software developer, mostly interested in older programming languages.
+	</div>
+</div>
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="/posts/another-blog-reboot/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Another blog reboot</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2019 Gertm&#39;s blog.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script></body>
+</html>

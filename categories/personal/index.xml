@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on Gertm&#39;s blog</title>
+    <link>https://gertm.github.io/categories/personal/</link>
+    <description>Recent content in Personal on Gertm&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Oct 2016 22:19:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://gertm.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I stopped using Linux</title>
+      <link>https://gertm.github.io/posts/why-i-stopped-using-linux/</link>
+      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
+      
+      <guid>https://gertm.github.io/posts/why-i-stopped-using-linux/</guid>
+      <description>TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running.
+As most people of my age, I started out on my parent&amp;rsquo;s computer. One of the first ones I had access to was a Philips MSX. Quickly moved on from that one to a 8088, which I used for a couple of years.</description>
+    </item>
+    
+  </channel>
+</rss>

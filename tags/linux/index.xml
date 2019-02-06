@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on A place to gather my thoughts.</title>
+    <title>Linux on Gertm&#39;s blog</title>
     <link>https://gertm.github.io/tags/linux/</link>
-    <description>Recent content in Linux on A place to gather my thoughts.</description>
+    <description>Recent content in Linux on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2019 — Gert Meulyzer — All rights reserved.</copyright>
     <lastBuildDate>Sat, 15 Oct 2016 22:19:53 +0000</lastBuildDate>
     
 	<atom:link href="https://gertm.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />

@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A place to gather my thoughts.</title>
+    <title>Gertm&#39;s blog</title>
     <link>https://gertm.github.io/</link>
-    <description>Recent content on A place to gather my thoughts.</description>
+    <description>Recent content on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2019 — Gert Meulyzer — All rights reserved.</copyright>
-    <lastBuildDate>Sun, 06 Jan 2019 09:34:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 02 Feb 2019 20:07:39 +0100</lastBuildDate>
     
 	<atom:link href="https://gertm.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Programming</title>
-      <link>https://gertm.github.io/links/programming/</link>
-      <pubDate>Sun, 06 Jan 2019 09:34:00 +0100</pubDate>
+      <title>Running Swi Prolog Http Server Behind Nginx</title>
+      <link>https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/</link>
+      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
       
-      <guid>https://gertm.github.io/links/programming/</guid>
-      <description>Interesting stuff about programming I keep here.
-Currently doing most my stuff in (SWI-Prolog)[https://swi-prolog.org]</description>
+      <guid>https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/</guid>
+      <description>This post will show you how to run the SWI-Prolog http server behind an nginx reverse proxy.
+     This assumes you have experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it.</description>
     </item>
     
     <item>
-      <title>About myself</title>
-      <link>https://gertm.github.io/about/</link>
-      <pubDate>Sun, 06 Jan 2019 09:07:07 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/about/</guid>
-      <description>Software developer living in Belgium.
-More to come once I flesh out this blog.</description>
-    </item>
-    
-    <item>
-      <title>Another Blog Reboot</title>
+      <title>Another blog reboot</title>
       <link>https://gertm.github.io/posts/another-blog-reboot/</link>
-      <pubDate>Sun, 06 Jan 2019 09:07:07 +0100</pubDate>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://gertm.github.io/posts/another-blog-reboot/</guid>
-      <description>Trying this again. Now it&amp;rsquo;ll be hosted on github pages, which means it&amp;rsquo;ll survive my umpteenth VPS reinstall.</description>
+      <description>Trying this again. Now it&amp;rsquo;ll be hosted on github and bitbucket pages, which means it&amp;rsquo;ll survive my umpteenth VPS reinstall.</description>
     </item>
     
     <item>

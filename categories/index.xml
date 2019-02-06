@@ -37,23 +37,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Programming</title>
-      <link>https://gertm.github.io/categories/programming/</link>
-      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prolog</title>
-      <link>https://gertm.github.io/categories/prolog/</link>
-      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/categories/prolog/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

@@ -129,12 +129,12 @@ home_page(_Request) :-
 <p>You need to add this piece of code to your nginx.conf.
 In the server configuration, usually in /etc/nginx/sites-enabled/default:</p>
 </div>
-<hr>
-<div class="paragraph">
-<p>location /prologcode/ {
-    proxy_pass <a href="http://127.0.0.1:8080/" class="bare">http://127.0.0.1:8080/</a>;
-}
-'''</p>
+<div class="listingblock">
+<div class="content">
+<pre>location /prologcode/ {
+    proxy_pass http://127.0.0.1:8080/;
+}</pre>
+</div>
 </div>
 <div class="paragraph">
 <p>Make sure you include the / at the end, because it won&#8217;t pass in the path to
@@ -192,7 +192,9 @@ the prolog http server.</p>
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">
-		
+		<div class="footer__links">
+	<a class="footer__link" href="/pages/old-blog/">Old Blog</a>
+</div>
 		<div class="footer__copyright">
 			&copy; 2019 Gert Meulyzer.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>

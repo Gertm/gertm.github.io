@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gertm.github.io/pages/old-blog/</loc>
+    <lastmod>2019-02-10T16:56:45+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gertm.github.io/posts/interest_or_career/</loc>
     <lastmod>2019-02-10T15:22:17+01:00</lastmod>
   </url>
@@ -35,18 +40,24 @@
   
   <url>
     <loc>https://gertm.github.io/</loc>
+    <lastmod>2019-02-10T16:56:45+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/tags/learning/</loc>
     <lastmod>2019-02-10T15:22:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gertm.github.io/tags/linux/</loc>
+    <loc>https://gertm.github.io/categories/linux/</loc>
     <lastmod>2016-10-15T22:19:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gertm.github.io/categories/linux/</loc>
+    <loc>https://gertm.github.io/tags/linux/</loc>
     <lastmod>2016-10-15T22:19:53+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -64,8 +75,14 @@
   </url>
   
   <url>
+    <loc>https://gertm.github.io/pages/</loc>
+    <lastmod>2019-02-10T16:56:45+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gertm.github.io/categories/personal/</loc>
-    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+    <lastmod>2019-02-10T15:22:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -82,13 +99,13 @@
   </url>
   
   <url>
-    <loc>https://gertm.github.io/tags/prolog/</loc>
+    <loc>https://gertm.github.io/categories/prolog/</loc>
     <lastmod>2019-02-02T20:07:39+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gertm.github.io/categories/prolog/</loc>
+    <loc>https://gertm.github.io/tags/prolog/</loc>
     <lastmod>2019-02-02T20:07:39+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -96,6 +113,12 @@
   <url>
     <loc>https://gertm.github.io/tags/restarting/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gertm.github.io/tags/spare-time/</loc>
+    <lastmod>2019-02-10T15:22:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   

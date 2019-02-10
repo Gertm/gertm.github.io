@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal on Gertm&#39;s blog</title>
-    <link>https://gertm.github.io/categories/personal/</link>
-    <description>Recent content in Personal on Gertm&#39;s blog</description>
+    <title>Learning on Gertm&#39;s blog</title>
+    <link>https://gertm.github.io/tags/learning/</link>
+    <description>Recent content in Learning on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Feb 2019 15:22:17 +0100</lastBuildDate>
     
-	<atom:link href="https://gertm.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gertm.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,16 +22,6 @@ But does this actually help me for my career?
 Should it matter that it helps me for my career?
 Talking to colleagues and friends, I hear a lot of different opinions.
 &amp;quot;Free time is for learning new frameworks and libraries so you can do better in your next job.</description>
-    </item>
-    
-    <item>
-      <title>Why I stopped using Linux</title>
-      <link>https://gertm.github.io/posts/why-i-stopped-using-linux/</link>
-      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/posts/why-i-stopped-using-linux/</guid>
-      <description>Update 2019-02-10: This is no longer true since I&#39;ve recently installed Linux on my laptop again and I&#39;m quite happy with it. We&#39;ll see how long it lasts.  
-TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running.  As most people of my age, I started out on my parent&amp;rsquo;s computer.</description>
     </item>
     
   </channel>

@@ -9,8 +9,7 @@
 	<meta name="description" content="">
 	<meta name="generator" content="Hugo 0.54.0" />
 	<meta property="og:title" content="Running Swi Prolog Http Server Behind Nginx" />
-<meta property="og:description" content="This post will show you how to run the SWI-Prolog http server behind an nginx reverse proxy.
-     This assumes you have experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it." />
+<meta property="og:description" content="This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.         This assumes experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/" />
 <meta property="article:published_time" content="2019-02-02T20:07:39&#43;01:00"/>
@@ -18,8 +17,7 @@
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Running Swi Prolog Http Server Behind Nginx"/>
-<meta name="twitter:description" content="This post will show you how to run the SWI-Prolog http server behind an nginx reverse proxy.
-     This assumes you have experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it."/>
+<meta name="twitter:description" content="This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.         This assumes experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it."/>
 
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -28,6 +26,17 @@
 	
 	<link rel="shortcut icon" href="/favicon.ico">
 		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-134234205-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -69,8 +78,17 @@
 </div>
 <div class="content post__content clearfix">
 			<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
-<div class="paragraph">
-<p>This post will show you how to run the SWI-Prolog http server behind an nginx reverse proxy.</p>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.
+</td>
+</tr>
+</table>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -79,7 +97,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-This assumes you have experience with nginx and already have a server up and running.
+This assumes experience with nginx and already have a server up and running.
 </td>
 </tr>
 </table>
@@ -108,12 +126,19 @@ home_page(_Request) :-
 </div>
 </div>
 <div class="paragraph">
-<p>To run this piece of code:</p>
+<p>You need to add this piece of code to your nginx.conf.
+In the server configuration, usually in /etc/nginx/sites-enabled/default:</p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre>swipl</pre>
+<hr>
+<div class="paragraph">
+<p>location /prologcode/ {
+    proxy_pass <a href="http://127.0.0.1:8080/" class="bare">http://127.0.0.1:8080/</a>;
+}
+'''</p>
 </div>
+<div class="paragraph">
+<p>Make sure you include the / at the end, because it won&#8217;t pass in the path to
+the prolog http server.</p>
 </div>
 
 		</div>
@@ -133,7 +158,33 @@ home_page(_Request) :-
 	<div class="post-nav__item post-nav__item--prev">
 		<a class="post-nav__link" href="/posts/another-blog-reboot/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Another blog reboot</p></a>
 	</div>
+	<div class="post-nav__item post-nav__item--next">
+		<a class="post-nav__link" href="/posts/interest_or_career/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Interests or career building?</p></a>
+	</div>
 </nav>
+
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gertm-eu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
 
 
 			</div>
@@ -143,7 +194,7 @@ home_page(_Request) :-
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2019 Gertm&#39;s blog.
+			&copy; 2019 Gert Meulyzer.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

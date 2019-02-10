@@ -6,10 +6,32 @@
     <description>Recent content on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 15:22:17 +0100</lastBuildDate>
     
 	<atom:link href="https://gertm.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interests or career building?</title>
+      <link>https://gertm.github.io/posts/interest_or_career/</link>
+      <pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate>
+      
+      <guid>https://gertm.github.io/posts/interest_or_career/</guid>
+      <description>I&amp;rsquo;ve been playing with Prolog in my spare time for a while now. It&amp;rsquo;s good fun, makes me think differently about programming and sometimes hurts my brain thinking about the way it works.
+But does this actually help me for my career?
+Should it matter that it helps me for my career?
+Talking to colleagues and friends, I hear a lot of different opinions.
+&amp;quot;Free time is for learning new frameworks and libraries so you can do better in your next job.</description>
+    </item>
+    
+    <item>
+      <title>Running Swi Prolog Http Server Behind Nginx</title>
+      <link>https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/</link>
+      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
+      
+      <guid>https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/</guid>
+      <description>This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.         This assumes experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it.</description>
+    </item>
     
     <item>
       <title>Another blog reboot</title>
@@ -26,8 +48,8 @@
       <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
       
       <guid>https://gertm.github.io/posts/why-i-stopped-using-linux/</guid>
-      <description>TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running.
-As most people of my age, I started out on my parent&amp;rsquo;s computer. One of the first ones I had access to was a Philips MSX. Quickly moved on from that one to a 8088, which I used for a couple of years.</description>
+      <description>Update 2019-02-10: This is no longer true since I&#39;ve recently installed Linux on my laptop again and I&#39;m quite happy with it. We&#39;ll see how long it lasts.  
+TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running.  As most people of my age, I started out on my parent&amp;rsquo;s computer.</description>
     </item>
     
   </channel>

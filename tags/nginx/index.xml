@@ -13,10 +13,10 @@
     
     <item>
       <title>Running Swi Prolog Http Server Behind Nginx</title>
-      <link>https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/</link>
+      <link>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</link>
       <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
       
-      <guid>https://gertm.github.io/posts/running-swi-prolog-http-server-behind-nginx/</guid>
+      <guid>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</guid>
       <description>This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.         This assumes experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it.</description>
     </item>
     

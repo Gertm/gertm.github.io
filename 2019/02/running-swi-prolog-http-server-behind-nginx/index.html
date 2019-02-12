@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Old Blog Page</title>
+	<title>Running Swi Prolog Http Server Behind Nginx</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<meta name="generator" content="Hugo 0.54.0" />
@@ -62,27 +62,102 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Old Blog Page</h1>
+			<h1 class="post__title">Running Swi Prolog Http Server Behind Nginx</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-02-10T16:56:45">2019-02-10</time>
+	<time class="meta__text" datetime="2019-02-02T20:07:39">2019-02-02</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/programming" rel="category">programming</a>, <a class="meta__link" href="/categories/prolog" rel="category">prolog</a></span>
 </div>
 </div>
 		</header><div class="content post__content clearfix">
-			<p>My old blog is still hosted at blogspot.com: <a href="https://gertm.blogspot.com/">https://gertm.blogspot.com/</a></p>
+			<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This assumes experience with nginx and already have a server up and running.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it. SSL can be offloaded to nginx as well.</p>
+</div>
+<div class="listingblock">
+<div class="title">Example taken directly from the SWI-Prolog documentation.</div>
+<div class="content">
+<pre class="highlight"><code class="language-prolog" data-lang="prolog">:- use_module(library(http/http_server)).
 
-<p>I have one popular post there that you might want to check out: <a href="http://gertm.blogspot.com/2012/06/getting-started-with-dialyzer-for.html">Getting started with dialyzer for Erlang</a></p>
+:- initialization
+    http_server([port(8080)]).
+
+:- http_handler(root(.),
+                http_redirect(moved, location_by_id(home_page)),
+                []).
+:- http_handler(root(home), home_page, []).
+
+home_page(_Request) :-
+    reply_html_page(
+        title('Demo server'),
+        [ h1('Hello world!')
+        ]).</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You need to add this piece of code to your nginx.conf.
+In the server configuration, usually in /etc/nginx/sites-enabled/default:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>location /prologcode/ {
+    proxy_pass http://127.0.0.1:8080/;
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Make sure you include the / at the end, because it won&#8217;t pass in the path to
+the prolog http server.</p>
+</div>
 
 		</div>
 		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/prolog/" rel="tag">prolog</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/nginx/" rel="tag">nginx</a></li>
+	</ul>
+</div>
 	</article>
 </main>
 
 
 <nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="/2019/01/another-blog-reboot/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Another blog reboot</p></a>
+	</div>
 	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/pages/rss/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">RSS page</p></a>
+		<a class="post-nav__link" href="/2019/02/interests-or-career-building/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Interests or career building?</p></a>
 	</div>
 </nav>
 

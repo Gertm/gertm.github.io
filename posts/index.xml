@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Feb 2019 15:22:17 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2019 17:00:28 +0200</lastBuildDate>
     
 	<atom:link href="https://gertm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Language hopping</title>
+      <link>https://gertm.github.io/2019/04/language-hopping/</link>
+      <pubDate>Mon, 15 Apr 2019 17:00:28 +0200</pubDate>
+      
+      <guid>https://gertm.github.io/2019/04/language-hopping/</guid>
+      <description>These past couple of weeks I&amp;rsquo;ve been hopping from one language to the next again. Trying to find that sweet spot for the stuff I do the most. Which is basically shuffle files around, automate some small tasks and do some web related things. I dove into Haskell again (against my better judgement), OCaml, F#, tried to do some Smalltalk again, Ada, D, Julia, Racket,.. All of these have their niches and their awesome features.</description>
+    </item>
     
     <item>
       <title>Interests or career building?</title>

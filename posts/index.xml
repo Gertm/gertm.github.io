@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2019 17:00:28 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate>
     
 	<atom:link href="https://gertm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>So many languages...</title>
+      <link>https://gertm.github.io/2019/04/so-many-languages.../</link>
+      <pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate>
+      
+      <guid>https://gertm.github.io/2019/04/so-many-languages.../</guid>
+      <description>One of my favorite pastimes is trying new programming languages. Reading books, tutorials, talking with people who use them and make them. For the last 10 years or so, I&amp;rsquo;ve tried almost every major language out there and a whole lot of the smaller ones. This started because I got curious what the &amp;lsquo;best programming language&amp;rsquo; was. A simple Google search told me it was Common Lisp and I immediately tried it.</description>
+    </item>
     
     <item>
       <title>Language hopping</title>

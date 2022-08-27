@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Running Swi Prolog Http Server Behind Nginx - Gertm&#39;s blog</title>
+	<title>Found This Old Blog Again - Gertm&#39;s blog</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,58 +73,17 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Running Swi Prolog Http Server Behind Nginx</h1>
+			<h1 class="post__title">Found This Old Blog Again</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2019-02-02T20:07:39&#43;01:00">2019-02-02</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/programming/" rel="category">programming</a>, <a class="meta__link" href="/categories/prolog/" rel="category">prolog</a>
-	</span>
-</div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-27T14:35:03&#43;02:00">2022-08-27</time></div></div>
 		</header>
 		<div class="content post__content clearfix">
-			<p>++++</p>
-<!-- raw HTML omitted -->
-<p>:icons: font</p>
-<p>IMPORTANT: This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.</p>
-<p>NOTE: This assumes experience with nginx and already have a server up and running.</p>
-<p>SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it. SSL can be offloaded to nginx as well.</p>
-<h2 id="sourceprolog">.Example taken directly from the SWI-Prolog documentation.
-[source,prolog]</h2>
-<p>:- use_module(library(http/http_server)).</p>
-<p>:- initialization
-http_server([port(8080)]).</p>
-<p>:- http_handler(root(.),
-http_redirect(moved, location_by_id(home_page)),
-[]).
-:- http_handler(root(home), home_page, []).</p>
-<h2 id="heading">home_page(_Request) :-
-reply_html_page(
-title(&lsquo;Demo server&rsquo;),
-[ h1(&lsquo;Hello world!&rsquo;)
-]).</h2>
-<p>You need to add this piece of code to your nginx.conf.
-In the server configuration, usually in /etc/nginx/sites-enabled/default:</p>
-<hr>
-<h2 id="heading-1">location /prologcode/ {
-proxy_pass http://127.0.0.1:8080/;
-}</h2>
-<p>Make sure you include the / at the end, because it won&rsquo;t pass in the path to
-the prolog http server.</p>
+			<p>So I found this blog in my Github repos, turns out the current version of Hugo still works perfectly with it.
+This might be a good time to try and revive this and use it for some musings about tech.<br>
+As usual with my blogs, don&rsquo;t expect too much. I know I don&rsquo;t. ;-)</p>
 
 		</div>
-		<footer class="post__footer">
-			
-<div class="post__tags tags clearfix">
-	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
-	<ul class="tags__list">
-		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/prolog/" rel="tag">prolog</a>
-		</li>
-		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/nginx/" rel="tag">nginx</a>
-		</li>
-	</ul>
-</div>
-		</footer>
 	</article>
 </main>
 

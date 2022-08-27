@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gertm&#39;s blog</title>
@@ -6,10 +6,16 @@
     <description>Recent content on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate>
-    
-	<atom:link href="https://gertm.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 27 Aug 2022 14:35:03 +0200</lastBuildDate><atom:link href="https://gertm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Found This Old Blog Again</title>
+      <link>https://gertm.github.io/2022/08/found-this-old-blog-again/</link>
+      <pubDate>Sat, 27 Aug 2022 14:35:03 +0200</pubDate>
+      
+      <guid>https://gertm.github.io/2022/08/found-this-old-blog-again/</guid>
+      <description>So I found this blog in my Github repos, turns out the current version of Hugo still works perfectly with it. This might be a good time to try and revive this and use it for some musings about tech.
+As usual with my blogs, don&amp;rsquo;t expect too much. I know I don&amp;rsquo;t. ;-)</description>
+    </item>
     
     <item>
       <title>So many languages...</title>
@@ -35,7 +41,7 @@
       <pubDate>Sun, 10 Feb 2019 21:51:06 +0100</pubDate>
       
       <guid>https://gertm.github.io/pages/links/</guid>
-      <description> Languages  Plasma: A programming language still under construction. Built by my friend Paul. Keep an eye on it, it&amp;rsquo;s going to be great! SWI-Prolog: The Prolog implementation I&amp;rsquo;m using to learn Prolog.  </description>
+      <description>Languages Plasma: A programming language still under construction. Built by my friend Paul. Keep an eye on it, it&amp;rsquo;s going to be great! SWI-Prolog: The Prolog implementation I&amp;rsquo;m using to learn Prolog. </description>
     </item>
     
     <item>
@@ -76,7 +82,11 @@ Talking to colleagues and friends, I hear a lot of different opinions.
       <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
       
       <guid>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</guid>
-      <description>This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.         This assumes experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it.</description>
+      <description>++++
+:icons: font
+IMPORTANT: This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.
+NOTE: This assumes experience with nginx and already have a server up and running.
+SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it. SSL can be offloaded to nginx as well.</description>
     </item>
     
     <item>
@@ -95,7 +105,7 @@ I could also host this myself, but the VPS doesn&amp;rsquo;t allow too much traf
       <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
       
       <guid>https://gertm.github.io/2016/10/why-i-stopped-using-linux/</guid>
-      <description>TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running.  As most people of my age, I started out on my parent&amp;rsquo;s computer. One of the first ones I had access to was a Philips MSX. Quickly moved on from that one to a 8088, which I used for a couple of years.</description>
+      <description>TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running. As most people of my age, I started out on my parent&amp;rsquo;s computer. One of the first ones I had access to was a Philips MSX. Quickly moved on from that one to a 8088, which I used for a couple of years.</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Gertm&#39;s blog</title>
@@ -6,16 +6,31 @@
     <description>Recent content in Categories on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gertm.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate><atom:link href="https://gertm.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>programming</title>
+      <link>https://gertm.github.io/categories/programming/</link>
+      <pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate>
+      
+      <guid>https://gertm.github.io/categories/programming/</guid>
+      <description></description>
+    </item>
     
     <item>
-      <title>Linux</title>
-      <link>https://gertm.github.io/categories/linux/</link>
-      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
+      <title>personal</title>
+      <link>https://gertm.github.io/categories/personal/</link>
+      <pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate>
       
-      <guid>https://gertm.github.io/categories/linux/</guid>
+      <guid>https://gertm.github.io/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prolog</title>
+      <link>https://gertm.github.io/categories/prolog/</link>
+      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
+      
+      <guid>https://gertm.github.io/categories/prolog/</guid>
       <description></description>
     </item>
     
@@ -29,29 +44,11 @@
     </item>
     
     <item>
-      <title>Personal</title>
-      <link>https://gertm.github.io/categories/personal/</link>
-      <pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate>
+      <title>Linux</title>
+      <link>https://gertm.github.io/categories/linux/</link>
+      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
       
-      <guid>https://gertm.github.io/categories/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://gertm.github.io/categories/programming/</link>
-      <pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate>
-      
-      <guid>https://gertm.github.io/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prolog</title>
-      <link>https://gertm.github.io/categories/prolog/</link>
-      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/categories/prolog/</guid>
+      <guid>https://gertm.github.io/categories/linux/</guid>
       <description></description>
     </item>
     

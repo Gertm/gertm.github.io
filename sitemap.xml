@@ -1,157 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://gertm.github.io/2019/04/so-many-languages.../</loc>
-    <lastmod>2019-04-27T07:28:10+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/2019/04/language-hopping/</loc>
-    <lastmod>2019-04-15T17:00:28+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/pages/links/</loc>
-    <lastmod>2019-02-10T21:51:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/pages/rss/</loc>
-    <lastmod>2019-02-10T17:26:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/pages/old-blog/</loc>
-    <lastmod>2019-02-10T16:56:45+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/2019/02/interests-or-career-building/</loc>
-    <lastmod>2019-02-10T15:22:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</loc>
-    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/2019/01/another-blog-reboot/</loc>
-    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/2016/10/why-i-stopped-using-linux/</loc>
-    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/tags/blogging/</loc>
-    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <loc>https://gertm.github.io/2022/08/found-this-old-blog-again/</loc>
+    <lastmod>2022-08-27T14:35:03+02:00</lastmod>
+  </url><url>
     <loc>https://gertm.github.io/</loc>
+    <lastmod>2022-08-27T14:35:03+02:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/posts/</loc>
+    <lastmod>2022-08-27T14:35:03+02:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/categories/</loc>
     <lastmod>2019-04-27T07:28:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gertm.github.io/tags/learning/</loc>
     <lastmod>2019-04-27T07:28:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/tags/linux/</loc>
-    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/categories/linux/</loc>
-    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/categories/meta/</loc>
-    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/tags/nginx/</loc>
-    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/pages/</loc>
-    <lastmod>2019-02-10T21:51:06+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/categories/personal/</loc>
-    <lastmod>2019-02-10T15:22:17+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/posts/</loc>
-    <lastmod>2019-04-27T07:28:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gertm.github.io/categories/programming/</loc>
     <lastmod>2019-04-27T07:28:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/tags/prolog/</loc>
-    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/categories/prolog/</loc>
-    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/tags/restarting/</loc>
-    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://gertm.github.io/2019/04/so-many-languages.../</loc>
+    <lastmod>2019-04-27T07:28:10+02:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/tags/</loc>
+    <lastmod>2019-04-27T07:28:10+02:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/2019/04/language-hopping/</loc>
+    <lastmod>2019-04-15T17:00:28+02:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/pages/links/</loc>
+    <lastmod>2019-02-10T21:51:06+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/pages/</loc>
+    <lastmod>2019-02-10T21:51:06+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/pages/rss/</loc>
+    <lastmod>2019-02-10T17:26:46+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/pages/old-blog/</loc>
+    <lastmod>2019-02-10T16:56:45+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/2019/02/interests-or-career-building/</loc>
+    <lastmod>2019-02-10T15:22:17+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/categories/personal/</loc>
+    <lastmod>2019-02-10T15:22:17+01:00</lastmod>
+  </url><url>
     <loc>https://gertm.github.io/tags/spare-time/</loc>
     <lastmod>2019-02-10T15:22:17+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gertm.github.io/tags/</loc>
+  </url><url>
+    <loc>https://gertm.github.io/tags/nginx/</loc>
+    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/tags/prolog/</loc>
+    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/categories/prolog/</loc>
+    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</loc>
+    <lastmod>2019-02-02T20:07:39+01:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/2019/01/another-blog-reboot/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://gertm.github.io/tags/blogging/</loc>
+    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/categories/meta/</loc>
+    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/tags/restarting/</loc>
+    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/tags/linux/</loc>
+    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/categories/linux/</loc>
+    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+  </url><url>
+    <loc>https://gertm.github.io/2016/10/why-i-stopped-using-linux/</loc>
+    <lastmod>2016-10-15T22:19:53+00:00</lastmod>
+  </url><url>
     <loc>https://gertm.github.io/tags/windows/</loc>
     <lastmod>2016-10-15T22:19:53+00:00</lastmod>
-    <priority>0</priority>
   </url>
-  
 </urlset>

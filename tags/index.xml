@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gertm&#39;s blog</title>
@@ -6,22 +6,9 @@
     <description>Recent content in Tags on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://gertm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate><atom:link href="https://gertm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogging</title>
-      <link>https://gertm.github.io/tags/blogging/</link>
-      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
+      <title>learning</title>
       <link>https://gertm.github.io/tags/learning/</link>
       <pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate>
       
@@ -30,43 +17,7 @@
     </item>
     
     <item>
-      <title>Linux</title>
-      <link>https://gertm.github.io/tags/linux/</link>
-      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nginx</title>
-      <link>https://gertm.github.io/tags/nginx/</link>
-      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/tags/nginx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prolog</title>
-      <link>https://gertm.github.io/tags/prolog/</link>
-      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/tags/prolog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Restarting</title>
-      <link>https://gertm.github.io/tags/restarting/</link>
-      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/tags/restarting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spare Time</title>
+      <title>spare time</title>
       <link>https://gertm.github.io/tags/spare-time/</link>
       <pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate>
       
@@ -75,7 +26,52 @@
     </item>
     
     <item>
-      <title>Windows</title>
+      <title>nginx</title>
+      <link>https://gertm.github.io/tags/nginx/</link>
+      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
+      
+      <guid>https://gertm.github.io/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prolog</title>
+      <link>https://gertm.github.io/tags/prolog/</link>
+      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
+      
+      <guid>https://gertm.github.io/tags/prolog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://gertm.github.io/tags/blogging/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gertm.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>restarting</title>
+      <link>https://gertm.github.io/tags/restarting/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gertm.github.io/tags/restarting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://gertm.github.io/tags/linux/</link>
+      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
+      
+      <guid>https://gertm.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
       <link>https://gertm.github.io/tags/windows/</link>
       <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
       

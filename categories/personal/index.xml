@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal on Gertm&#39;s blog</title>
+    <title>personal on Gertm&#39;s blog</title>
     <link>https://gertm.github.io/categories/personal/</link>
-    <description>Recent content in Personal on Gertm&#39;s blog</description>
+    <description>Recent content in personal on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Feb 2019 15:22:17 +0100</lastBuildDate>
-    
-	<atom:link href="https://gertm.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 10 Feb 2019 15:22:17 +0100</lastBuildDate><atom:link href="https://gertm.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interests or career building?</title>
       <link>https://gertm.github.io/2019/02/interests-or-career-building/</link>
@@ -30,7 +26,7 @@ Talking to colleagues and friends, I hear a lot of different opinions.
       <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
       
       <guid>https://gertm.github.io/2016/10/why-i-stopped-using-linux/</guid>
-      <description>TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running.  As most people of my age, I started out on my parent&amp;rsquo;s computer. One of the first ones I had access to was a Philips MSX. Quickly moved on from that one to a 8088, which I used for a couple of years.</description>
+      <description>TL;DR: Updating video drivers screwed my system once too many. Reinstalled to Windows and never looked back. Now the PC works for me, instead of me working to keep it running. As most people of my age, I started out on my parent&amp;rsquo;s computer. One of the first ones I had access to was a Philips MSX. Quickly moved on from that one to a 8088, which I used for a couple of years.</description>
     </item>
     
   </channel>

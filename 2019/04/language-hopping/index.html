@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-us">
+<html class="no-js" lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Language hopping</title>
+	<title>Language hopping - Gertm&#39;s blog</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-	<meta name="generator" content="Hugo 0.54.0" />
-	
-	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
 	<link rel="stylesheet" href="/css/style.css">
 	
+
 	<link rel="shortcut icon" href="/favicon.ico">
 		
 <script type="application/javascript">
@@ -32,13 +32,16 @@ if (!doNotTrack) {
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
-	<div class="container">
-		<div class="logo">
-			<a class="logo__link" href="/" title="Gertm&#39;s blog" rel="home">
-				<div class="logo__title">Gertm&#39;s blog</div>
-				<div class="logo__tagline">A place for my thoughts.</div>
-			</a>
-		</div>
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Gertm&#39;s blog" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Gertm&#39;s blog</div>
+					<div class="logo__tagline">A place for my thoughts.</div>
+				</div>
+		</a>
+	</div>
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
@@ -46,10 +49,18 @@ if (!doNotTrack) {
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/posts/">Posts</a>
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">Posts</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/pages/links/">Links</a>
+			<a class="menu__link" href="/pages/links/">
+				
+				<span class="menu__text">Links</span>
+				
+			</a>
 		</li>
 	</ul>
 </nav>
@@ -65,59 +76,47 @@ if (!doNotTrack) {
 			<h1 class="post__title">Language hopping</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-04-15T17:00:28">2019-04-15</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/programming" rel="category">programming</a></span>
-</div>
-</div>
-		</header><div class="content post__content clearfix">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2019-04-15T17:00:28&#43;02:00">2019-04-15</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/programming/" rel="category">programming</a>
+	</span>
+</div></div>
+		</header>
+		<div class="content post__content clearfix">
 			<p>These past couple of weeks I&rsquo;ve been hopping from one language to the next again. Trying to find that sweet spot for the stuff I do the most.
 Which is basically shuffle files around, automate some small tasks and do some web related things.
 I dove into Haskell again (against my better judgement), OCaml, F#, tried to do some Smalltalk again, Ada, D, Julia, Racket,..
 All of these have their niches and their awesome features. All of them have things I don&rsquo;t like.
 (I must exclude Smalltalk here because I just don&rsquo;t know it well enough yet.)</p>
-
 <p>All of this searching was ultimately to find the best tool to solve the problem I had. I want to make a small webbased game and I need a backend language for the logic.
 At some point I got frustrated and just started building in Go to have something to work with and see if some ideas of mine could actually be done.
 I&rsquo;ve been using Go at work a lot and it was the fastest thing to get started with.</p>
-
-<p>So now I&rsquo;m building this in Go. Is it the best language out there? Heck no, but it&rsquo;s Good Enough&trade; and gets the job done.
+<p>So now I&rsquo;m building this in Go. Is it the best language out there? Heck no, but it&rsquo;s Good Enough(tm) and gets the job done.
 Does the tool actually matter that much? Yeah, I&rsquo;ll run into things I don&rsquo;t like about it, for sure.
 But I&rsquo;m convinced that it&rsquo;s better to produce something than to keep looking for the best tool to do it with.
 Some people write all their stuff in JS. &lsquo;Nuff said. There&rsquo;s no shame if the end-product is what you wanted. Is there?
 (Maybe I should write a longer blog post about languages and hopping between them in general.)</p>
-
 <p>Flame me in the comments!</p>
 
 		</div>
-		
+		<footer class="post__footer">
+			
 <div class="post__tags tags clearfix">
-	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="/tags/learning/" rel="tag">learning</a></li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/learning/" rel="tag">learning</a>
+		</li>
 	</ul>
 </div>
+		</footer>
 	</article>
 </main>
 
 
-<nav class="post-nav flex">
-	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/2019/02/interests-or-career-building/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Interests or career building?</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/2019/04/so-many-languages.../" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">So many languages...</p></a>
-	</div>
-</nav>
 
 <section class="comments">
 	<div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
@@ -143,15 +142,17 @@ Some people write all their stuff in JS. &lsquo;Nuff said. There&rsquo;s no sham
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">
-		<div class="footer__links">
+		
+<div class="footer__links">
 	<a class="footer__link" href="/posts/index.xml">RSS</a> | <a class="footer__link" href="https://gertm.blogspot.com/">Old Blog</a>
 </div>
 		<div class="footer__copyright">
-			&copy; 2019 Gert Meulyzer.
+			&copy; 2022 Gert Meulyzer.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
 </footer>
 	</div>
-<script async defer src="/js/menu.js"></script></body>
+<script async defer src="/js/menu.js"></script>
+</body>
 </html>

@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Gertm&#39;s blog</title>
+    <title>programming on Gertm&#39;s blog</title>
     <link>https://gertm.github.io/categories/programming/</link>
-    <description>Recent content in Programming on Gertm&#39;s blog</description>
+    <description>Recent content in programming on Gertm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate>
-    
-	<atom:link href="https://gertm.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate><atom:link href="https://gertm.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>So many languages...</title>
       <link>https://gertm.github.io/2019/04/so-many-languages.../</link>
@@ -35,7 +31,11 @@
       <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
       
       <guid>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</guid>
-      <description>This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.         This assumes experience with nginx and already have a server up and running.     SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it.</description>
+      <description>++++
+:icons: font
+IMPORTANT: This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.
+NOTE: This assumes experience with nginx and already have a server up and running.
+SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it. SSL can be offloaded to nginx as well.</description>
     </item>
     
   </channel>

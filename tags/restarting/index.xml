@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>restarting on Gertm&#39;s blog</title>
-    <link>https://gertm.github.io/tags/restarting/</link>
-    <description>Recent content in restarting on Gertm&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://gertm.github.io/tags/restarting/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Another blog reboot</title>
-      <link>https://gertm.github.io/2019/01/another-blog-reboot/</link>
-      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/2019/01/another-blog-reboot/</guid>
-      <description>Trying this again. Now it&amp;rsquo;ll be hosted on Github pages, which means it&amp;rsquo;ll survive my umpteenth VPS reinstall.
-I could also host this myself, but the VPS doesn&amp;rsquo;t allow too much traffic and doing it on Github pages is actually really convenient.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>restarting on Gertm's blog</title><link>https://gertm.github.io/tags/restarting/</link><description>Recent content in restarting on Gertm's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://gertm.github.io/tags/restarting/index.xml" rel="self" type="application/rss+xml"/><item><title>Another blog reboot</title><link>https://gertm.github.io/2019/01/another-blog-reboot/</link><pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate><guid>https://gertm.github.io/2019/01/another-blog-reboot/</guid><description>Trying this again. Now it&amp;rsquo;ll be hosted on Github pages, which means it&amp;rsquo;ll survive my umpteenth VPS reinstall.
+I could also host this myself, but the VPS doesn&amp;rsquo;t allow too much traffic and doing it on Github pages is actually really convenient.</description></item></channel></rss>

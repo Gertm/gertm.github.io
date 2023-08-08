@@ -1,42 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>learning on Gertm&#39;s blog</title>
-    <link>https://gertm.github.io/tags/learning/</link>
-    <description>Recent content in learning on Gertm&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate><atom:link href="https://gertm.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>So many languages...</title>
-      <link>https://gertm.github.io/2019/04/so-many-languages.../</link>
-      <pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate>
-      
-      <guid>https://gertm.github.io/2019/04/so-many-languages.../</guid>
-      <description>One of my favorite pastimes is trying new programming languages. Reading books, tutorials, talking with people who use them and make them. For the last 10 years or so, I&amp;rsquo;ve tried almost every major language out there and a whole lot of the smaller ones. This started because I got curious what the &amp;lsquo;best programming language&amp;rsquo; was. A simple Google search told me it was Common Lisp and I immediately tried it.</description>
-    </item>
-    
-    <item>
-      <title>Language hopping</title>
-      <link>https://gertm.github.io/2019/04/language-hopping/</link>
-      <pubDate>Mon, 15 Apr 2019 17:00:28 +0200</pubDate>
-      
-      <guid>https://gertm.github.io/2019/04/language-hopping/</guid>
-      <description>These past couple of weeks I&amp;rsquo;ve been hopping from one language to the next again. Trying to find that sweet spot for the stuff I do the most. Which is basically shuffle files around, automate some small tasks and do some web related things. I dove into Haskell again (against my better judgement), OCaml, F#, tried to do some Smalltalk again, Ada, D, Julia, Racket,.. All of these have their niches and their awesome features.</description>
-    </item>
-    
-    <item>
-      <title>Interests or career building?</title>
-      <link>https://gertm.github.io/2019/02/interests-or-career-building/</link>
-      <pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/2019/02/interests-or-career-building/</guid>
-      <description>I&amp;rsquo;ve been playing with Prolog in my spare time for a while now. It&amp;rsquo;s good fun, makes me think differently about programming and sometimes hurts my brain thinking about the way it works.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>learning on Gertm's blog</title><link>https://gertm.github.io/tags/learning/</link><description>Recent content in learning on Gertm's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2019 07:28:10 +0200</lastBuildDate><atom:link href="https://gertm.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml"/><item><title>So many languages...</title><link>https://gertm.github.io/2019/04/so-many-languages.../</link><pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate><guid>https://gertm.github.io/2019/04/so-many-languages.../</guid><description>One of my favorite pastimes is trying new programming languages. Reading books, tutorials, talking with people who use them and make them. For the last 10 years or so, I&amp;rsquo;ve tried almost every major language out there and a whole lot of the smaller ones. This started because I got curious what the &amp;lsquo;best programming language&amp;rsquo; was. A simple Google search told me it was Common Lisp and I immediately tried it.</description></item><item><title>Language hopping</title><link>https://gertm.github.io/2019/04/language-hopping/</link><pubDate>Mon, 15 Apr 2019 17:00:28 +0200</pubDate><guid>https://gertm.github.io/2019/04/language-hopping/</guid><description>These past couple of weeks I&amp;rsquo;ve been hopping from one language to the next again. Trying to find that sweet spot for the stuff I do the most. Which is basically shuffle files around, automate some small tasks and do some web related things. I dove into Haskell again (against my better judgement), OCaml, F#, tried to do some Smalltalk again, Ada, D, Julia, Racket,.. All of these have their niches and their awesome features.</description></item><item><title>Interests or career building?</title><link>https://gertm.github.io/2019/02/interests-or-career-building/</link><pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate><guid>https://gertm.github.io/2019/02/interests-or-career-building/</guid><description>I&amp;rsquo;ve been playing with Prolog in my spare time for a while now. It&amp;rsquo;s good fun, makes me think differently about programming and sometimes hurts my brain thinking about the way it works.
 But does this actually help me for my career?
 Should it matter that it helps me for my career?
 Talking to colleagues and friends, I hear a lot of different opinions.
-&amp;quot;Free time is for learning new frameworks and libraries so you can do better in your next job.</description>
-    </item>
-    
-  </channel>
-</rss>
+&amp;quot;Free time is for learning new frameworks and libraries so you can do better in your next job.</description></item></channel></rss>

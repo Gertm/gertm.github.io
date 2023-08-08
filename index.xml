@@ -1,103 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gertm&#39;s blog</title>
-    <link>https://gertm.github.io/</link>
-    <description>Recent content on Gertm&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 27 Aug 2022 14:35:03 +0200</lastBuildDate><atom:link href="https://gertm.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Found This Old Blog Again</title>
-      <link>https://gertm.github.io/2022/08/found-this-old-blog-again/</link>
-      <pubDate>Sat, 27 Aug 2022 14:35:03 +0200</pubDate>
-      
-      <guid>https://gertm.github.io/2022/08/found-this-old-blog-again/</guid>
-      <description>So I found this blog in my Github repos, turns out the current version of Hugo still works perfectly with it. This might be a good time to try and revive this and use it for some musings about tech.
-As usual with my blogs, don&amp;rsquo;t expect too much. I know I don&amp;rsquo;t. ;-)</description>
-    </item>
-    
-    <item>
-      <title>So many languages...</title>
-      <link>https://gertm.github.io/2019/04/so-many-languages.../</link>
-      <pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate>
-      
-      <guid>https://gertm.github.io/2019/04/so-many-languages.../</guid>
-      <description>One of my favorite pastimes is trying new programming languages. Reading books, tutorials, talking with people who use them and make them. For the last 10 years or so, I&amp;rsquo;ve tried almost every major language out there and a whole lot of the smaller ones. This started because I got curious what the &amp;lsquo;best programming language&amp;rsquo; was. A simple Google search told me it was Common Lisp and I immediately tried it.</description>
-    </item>
-    
-    <item>
-      <title>Language hopping</title>
-      <link>https://gertm.github.io/2019/04/language-hopping/</link>
-      <pubDate>Mon, 15 Apr 2019 17:00:28 +0200</pubDate>
-      
-      <guid>https://gertm.github.io/2019/04/language-hopping/</guid>
-      <description>These past couple of weeks I&amp;rsquo;ve been hopping from one language to the next again. Trying to find that sweet spot for the stuff I do the most. Which is basically shuffle files around, automate some small tasks and do some web related things. I dove into Haskell again (against my better judgement), OCaml, F#, tried to do some Smalltalk again, Ada, D, Julia, Racket,.. All of these have their niches and their awesome features.</description>
-    </item>
-    
-    <item>
-      <title>Links</title>
-      <link>https://gertm.github.io/pages/links/</link>
-      <pubDate>Sun, 10 Feb 2019 21:51:06 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/pages/links/</guid>
-      <description>Languages Plasma: A programming language still under construction. Built by my friend Paul. Keep an eye on it, it&amp;rsquo;s going to be great! SWI-Prolog: The Prolog implementation I&amp;rsquo;m using to learn Prolog. </description>
-    </item>
-    
-    <item>
-      <title>RSS page</title>
-      <link>https://gertm.github.io/pages/rss/</link>
-      <pubDate>Sun, 10 Feb 2019 17:26:46 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/pages/rss/</guid>
-      <description>RSS Link for the posts: https://gertm.github.io/posts/index.xml</description>
-    </item>
-    
-    <item>
-      <title>Old Blog Page</title>
-      <link>https://gertm.github.io/pages/old-blog/</link>
-      <pubDate>Sun, 10 Feb 2019 16:56:45 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/pages/old-blog/</guid>
-      <description>My old blog is still hosted at blogspot.com: https://gertm.blogspot.com/
-I have one popular post there that you might want to check out: Getting started with dialyzer for Erlang</description>
-    </item>
-    
-    <item>
-      <title>Interests or career building?</title>
-      <link>https://gertm.github.io/2019/02/interests-or-career-building/</link>
-      <pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/2019/02/interests-or-career-building/</guid>
-      <description>I&amp;rsquo;ve been playing with Prolog in my spare time for a while now. It&amp;rsquo;s good fun, makes me think differently about programming and sometimes hurts my brain thinking about the way it works.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gertm's blog</title><link>https://gertm.github.io/</link><description>Recent content on Gertm's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 27 Aug 2022 14:35:03 +0200</lastBuildDate><atom:link href="https://gertm.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Found This Old Blog Again</title><link>https://gertm.github.io/2022/08/found-this-old-blog-again/</link><pubDate>Sat, 27 Aug 2022 14:35:03 +0200</pubDate><guid>https://gertm.github.io/2022/08/found-this-old-blog-again/</guid><description>So I found this blog in my Github repos, turns out the current version of Hugo still works perfectly with it. This might be a good time to try and revive this and use it for some musings about tech.
+As usual with my blogs, don&amp;rsquo;t expect too much. I know I don&amp;rsquo;t. ;-)</description></item><item><title>So many languages...</title><link>https://gertm.github.io/2019/04/so-many-languages.../</link><pubDate>Sat, 27 Apr 2019 07:28:10 +0200</pubDate><guid>https://gertm.github.io/2019/04/so-many-languages.../</guid><description>One of my favorite pastimes is trying new programming languages. Reading books, tutorials, talking with people who use them and make them. For the last 10 years or so, I&amp;rsquo;ve tried almost every major language out there and a whole lot of the smaller ones. This started because I got curious what the &amp;lsquo;best programming language&amp;rsquo; was. A simple Google search told me it was Common Lisp and I immediately tried it.</description></item><item><title>Language hopping</title><link>https://gertm.github.io/2019/04/language-hopping/</link><pubDate>Mon, 15 Apr 2019 17:00:28 +0200</pubDate><guid>https://gertm.github.io/2019/04/language-hopping/</guid><description>These past couple of weeks I&amp;rsquo;ve been hopping from one language to the next again. Trying to find that sweet spot for the stuff I do the most. Which is basically shuffle files around, automate some small tasks and do some web related things. I dove into Haskell again (against my better judgement), OCaml, F#, tried to do some Smalltalk again, Ada, D, Julia, Racket,.. All of these have their niches and their awesome features.</description></item><item><title>Links</title><link>https://gertm.github.io/pages/links/</link><pubDate>Sun, 10 Feb 2019 21:51:06 +0100</pubDate><guid>https://gertm.github.io/pages/links/</guid><description>Languages Plasma: A programming language still under construction. Built by my friend Paul. Keep an eye on it, it&amp;rsquo;s going to be great! SWI-Prolog: The Prolog implementation I&amp;rsquo;m using to learn Prolog.</description></item><item><title>RSS page</title><link>https://gertm.github.io/pages/rss/</link><pubDate>Sun, 10 Feb 2019 17:26:46 +0100</pubDate><guid>https://gertm.github.io/pages/rss/</guid><description>RSS Link for the posts: https://gertm.github.io/posts/index.xml</description></item><item><title>Old Blog Page</title><link>https://gertm.github.io/pages/old-blog/</link><pubDate>Sun, 10 Feb 2019 16:56:45 +0100</pubDate><guid>https://gertm.github.io/pages/old-blog/</guid><description>My old blog is still hosted at blogspot.com: https://gertm.blogspot.com/
+I have one popular post there that you might want to check out: Getting started with dialyzer for Erlang</description></item><item><title>Interests or career building?</title><link>https://gertm.github.io/2019/02/interests-or-career-building/</link><pubDate>Sun, 10 Feb 2019 15:22:17 +0100</pubDate><guid>https://gertm.github.io/2019/02/interests-or-career-building/</guid><description>I&amp;rsquo;ve been playing with Prolog in my spare time for a while now. It&amp;rsquo;s good fun, makes me think differently about programming and sometimes hurts my brain thinking about the way it works.
 But does this actually help me for my career?
 Should it matter that it helps me for my career?
 Talking to colleagues and friends, I hear a lot of different opinions.
-&amp;quot;Free time is for learning new frameworks and libraries so you can do better in your next job.</description>
-    </item>
-    
-    <item>
-      <title>Running Swi Prolog Http Server Behind Nginx</title>
-      <link>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</link>
-      <pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate>
-      
-      <guid>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</guid>
-      <description>++++
+&amp;quot;Free time is for learning new frameworks and libraries so you can do better in your next job.</description></item><item><title>Running Swi Prolog Http Server Behind Nginx</title><link>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</link><pubDate>Sat, 02 Feb 2019 20:07:39 +0100</pubDate><guid>https://gertm.github.io/2019/02/running-swi-prolog-http-server-behind-nginx/</guid><description>++++
 :icons: font
 IMPORTANT: This post will remind me how to run the SWI-Prolog http server behind an nginx reverse proxy.
 NOTE: This assumes experience with nginx and already have a server up and running.
-SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it. SSL can be offloaded to nginx as well.</description>
-    </item>
-    
-    <item>
-      <title>Another blog reboot</title>
-      <link>https://gertm.github.io/2019/01/another-blog-reboot/</link>
-      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/2019/01/another-blog-reboot/</guid>
-      <description>Trying this again. Now it&amp;rsquo;ll be hosted on Github pages, which means it&amp;rsquo;ll survive my umpteenth VPS reinstall.
-I could also host this myself, but the VPS doesn&amp;rsquo;t allow too much traffic and doing it on Github pages is actually really convenient.</description>
-    </item>
-    
-  </channel>
-</rss>
+SWI-Prolog has a built-in webserver in library(http/http_server). Of course exposing this kind of thing directly to the internet is never a good idea and most people put nginx in front of it. SSL can be offloaded to nginx as well.</description></item><item><title>Another blog reboot</title><link>https://gertm.github.io/2019/01/another-blog-reboot/</link><pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate><guid>https://gertm.github.io/2019/01/another-blog-reboot/</guid><description>Trying this again. Now it&amp;rsquo;ll be hosted on Github pages, which means it&amp;rsquo;ll survive my umpteenth VPS reinstall.
+I could also host this myself, but the VPS doesn&amp;rsquo;t allow too much traffic and doing it on Github pages is actually really convenient.</description></item></channel></rss>

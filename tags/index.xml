@@ -61,23 +61,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>linux</title>
-      <link>https://gertm.github.io/tags/linux/</link>
-      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>https://gertm.github.io/tags/windows/</link>
-      <pubDate>Sat, 15 Oct 2016 22:19:53 +0000</pubDate>
-      
-      <guid>https://gertm.github.io/tags/windows/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

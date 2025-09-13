@@ -1,0 +1,13 @@
+[submodule "themes/mainroad"]
+	path = themes/mainroad
+	url = https://github.com/vimux/mainroad.git
+[submodule "public"]
+	path = public
+	url = git@github.com:Gertm/gertm.github.io.git
+	branch = master
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/ritzy"]
+	path = themes/ritzy
+	url = https://github.com/ddritzenhoff/ritzy.git

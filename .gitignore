@@ -1,2 +1,5 @@
-node_modules
-_site
+public/
+public/*
+
+themes/oldmainroad
+.hugo_build.lock

@@ -1,14 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.gertm.eu'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Gert's notes"
 theme = "ritzy"
 
 [params]
   author = "Gert"
   description = "personal blog"
 
-
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

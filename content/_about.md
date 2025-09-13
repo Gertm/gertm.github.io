@@ -4,4 +4,4 @@ date: 2025-09-13
 draft: false
 ---
 
-Hi, I'm Gert. I wrote these things:
+Hi, I'm Gert. I write things.

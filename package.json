@@ -1,0 +1,26 @@
+{
+  "name": "gertm.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/gertm.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gertm/gertm.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gertm/gertm.github.io/issues"
+  },
+  "homepage": "https://github.com/Gertm/gertm.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

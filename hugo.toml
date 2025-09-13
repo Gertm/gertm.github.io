@@ -3,26 +3,12 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ritzy"
 
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+[params]
+  author = "Gert"
+  description = "personal blog"
 
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
